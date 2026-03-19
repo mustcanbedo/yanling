@@ -1,0 +1,57 @@
+name: Bug 报告 | Bug Report
+description: 报告使用中遇到的 Bug
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您的反馈！请先搜索是否已有类似的问题。
+  - type: textarea
+    id: describe
+    attributes:
+      label: 请描述这个 Bug
+      description: 清晰简洁地描述 Bug 的表现
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 重现步骤
+      description: 如何复现该问题
+      placeholder: |
+        1. 打开...
+        2. 点击...
+        3. 观察到...
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: 出现问题的网址
+      description: 若与小红书页面相关，请提供笔记链接
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: 扩展版本
+      placeholder: v1.0.0
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充说明
+    validations:
+      required: false
