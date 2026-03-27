@@ -1,3 +1,3 @@
 # packages
 
-可选：把 `chrome-mv3-prod.zip` 放在此目录便于备份；**构建在 comment_copilot** `apps/extension/` 完成。Release 附件名建议固定为 **`chrome-mv3-prod.zip`**，与根目录 README 下载直链一致。
+可选：把 `chrome-mv3-prod.zip` 放在此目录；**构建在 comment_copilot** `apps/extension/` 完成。根目录 README 使用「标签归档」链接下载时，用户解压后在此路径找到扩展包。
