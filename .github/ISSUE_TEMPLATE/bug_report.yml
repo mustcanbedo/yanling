@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢您的反馈！请先搜索是否已有类似的问题。
+        感谢您的反馈！请先搜索是否已有类似 [Issue](https://github.com/mustcanbedo/yanling/issues)。
   - type: textarea
     id: describe
     attributes:
@@ -29,14 +29,15 @@ body:
     id: url
     attributes:
       label: 出现问题的网址
-      description: 若与小红书页面相关，请提供笔记链接
+      description: 若与具体页面相关（如小红书笔记、B 站视频等），请粘贴完整链接
     validations:
       required: false
   - type: input
     id: version
     attributes:
       label: 扩展版本
-      placeholder: v1.0.0
+      description: 扩展侧栏「驭灵」→「关于」中查看；侧载用户请注明是否来自 GitHub Release
+      placeholder: 例如 0.1.0
     validations:
       required: false
   - type: dropdown

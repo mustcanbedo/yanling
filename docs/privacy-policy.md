@@ -1,7 +1,7 @@
 # 言灵 Yanling 隐私政策
 
-> 与 `comment_copilot` 仓库 `apps/extension/sidepanel/legal-content.tsx` 中 `PRIVACY_POLICY` **正文一致**（邮箱以 `constants.ts` 的 `FEEDBACK_EMAIL` 为准）。供 Chrome 网上应用店等填写公开隐私政策 URL。  
-> 更新日期：2026-03-24
+> 与 `comment_copilot` 仓库 `apps/extension/sidepanel/legal-content.tsx` 中 `PRIVACY_POLICY` **正文一致**（邮箱以 `constants.ts` 的 `FEEDBACK_EMAIL` 为准）。供 Chrome 网上应用店等填写公开隐私政策 URL；请使用 GitHub **blob** 链接（浏览器可读的 Markdown 页），勿使用 raw 链接作为商店填报地址。  
+> 更新日期：2026-03-27
 
 ---
 

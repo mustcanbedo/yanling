@@ -3,6 +3,10 @@ description: 提出新功能或改进建议
 title: "[Feature]: "
 labels: ["enhancement"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前可先浏览 [已有 Issue](https://github.com/mustcanbedo/yanling/issues)，避免重复建议。
   - type: textarea
     id: describe
     attributes:
